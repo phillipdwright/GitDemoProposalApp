@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace GitDemoProposalsApp
+﻿namespace GitDemoProposalsApp
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var proposalFactory = new ProposalFactory();
+
+            var proposal = proposalFactory.Create();
         }
     }
 }
